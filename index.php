@@ -7,6 +7,11 @@ header('Content-Type: text/html; charset=utf-8');
 <head>
 	<title>Résumé</title>
 	<style>
+		body, div, h1, h2, h3, h4, li, ul {
+			margin: 0;
+			padding: 0;
+		}
+
 		body, html {
 			height: 100%;
 			font-size: 14px;
@@ -24,19 +29,6 @@ header('Content-Type: text/html; charset=utf-8');
 			font-family: HelveticaNeue, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 			font-style: normal;
 			cursor: auto;
-		}
-
-		img {
-			max-width: 100%;
-			height: auto;
-			-ms-interpolation-mode: bicubic;
-			display: inline-block;
-			vertical-align: middle;
-		}
-
-		blockquote, body, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, li, ol, p, pre, td, th, ul {
-			margin: 0;
-			padding: 0;
 		}
 
 		.personal-contact,
