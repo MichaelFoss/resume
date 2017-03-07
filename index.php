@@ -9,7 +9,7 @@ header('Content-Type: text/html; charset=utf-8');
 	<link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<main id="resumeElement">
+<main>
 	<h1 class="full-name">
 		Michael Foss
 	</h1>
@@ -50,7 +50,7 @@ header('Content-Type: text/html; charset=utf-8');
 			New York, NY
 		</div>
 		<div class="job-skills">
-			PHP, Javascript, Git, Apache, eCommerce, MS SQL, XML, Linux, Composer
+			PHP, Javascript, Jira, ES6, Angular2, C#, Git, Apache, eCommerce, MS SQL, XML, Linux, Composer
 		</div>
 		<ul class="job-accomplishments">
 			<li class="job-accomplishment">
