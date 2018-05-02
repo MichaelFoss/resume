@@ -4,6 +4,8 @@
 	<meta charset="utf-8" />
 	<title>Résumé</title>
 	<link rel="stylesheet" href="style.css" />
+	<script type="text/javascript" src="data.json.js"></script>
+	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
 <main>
@@ -34,40 +36,36 @@
 		Employment History
 	</h3>
 
-	<div class="job">
-		<div>
-			<h4 class="job-title">
-				Solution Architect and Team Lead, Valtech, Inc.
-			</h4>
-			<span class="job-dates">
-				2012 - Present
-			</span>
+	<script id="job-template" type="text/template">
+		<div class="job">
+			<div>
+				<h4 class="job-title">
+					{title}, {company}
+				</h4>
+				<span class="job-dates">
+					{startDate} - {endDate}
+				</span>
+			</div>
+			<div class="job-location">
+				{location}
+			</div>
+			<div class="job-skills">
+				{skills}
+			</div>
+			<ul class="job-accomplishments">
+				{accomplishments}
+			</ul>
 		</div>
-		<div class="job-location">
-			New York, NY
-		</div>
-		<div class="job-skills">
-			PHP, Javascript, Jira, ES6, Angular2, C#, Git, Apache, eCommerce, MS SQL, XML, Linux, Composer
-		</div>
-		<ul class="job-accomplishments">
-			<li class="job-accomplishment">
-				Grew company start-up size from 17 employees to 70+
-			</li>
-			<li class="job-accomplishment">
-				Saved failing relationship with &num;1 client
-			</li>
-			<li class="job-accomplishment">
-				Rebuilt eCommerce website in 6 months
-			</li>
-			<li class="job-accomplishment">
-				Created sister eCommerce website in 6 months
-			</li>
-			<li class="job-accomplishment">
-				Managed teams ranging from 2-6 developers
-			</li>
-		</ul>
-	</div>
+	</script>
 
+	<script id="job-accomplishment-template" type="text/template">
+		<li class="job-accomplishment">
+			{accomplishment}
+		</li>
+	</script>
+
+	<div id="jobs"></div>
+<!--
 	<div class="job">
 		<div>
 			<h4 class="job-title">
@@ -120,7 +118,7 @@
 			</li>
 		</ul>
 	</div>
-
+-->
 	<h3 class="education-header">
 		Education
 	</h3>
