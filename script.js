@@ -2,6 +2,7 @@ const init = () => {
 	const jobTemplate = document.querySelector('#job-template').text;
 	const accomplishmentTemplate = document.querySelector('#job-accomplishment-template').text;
 	const $jobs = document.querySelector('#jobs');
+
 	data.jobs.forEach(job => {
 		const accomplishments = [];
 
@@ -23,6 +24,10 @@ const init = () => {
 
 		$jobs.innerHTML += jobHTML;
 	});
+
+	document.querySelector('header > .professional-titles').innerHTML = data.professionalTitles.join(', ');
+	document.querySelector('header > .skills').innerHTML = data.skills.join(', ');
+	document.querySelector('header > .professional-experience').innerHTML = data.professionalExperience.join(', ');
 };
 
 window.addEventListener('load', init);

@@ -1,4 +1,22 @@
 const data = {
+	"professionalTitles": [
+		"Solution Architect",
+		"Team Lead",
+		"Full Stack Developer"
+	],
+	"skills": [
+		"PHP",
+		"Javascript/Ecmascript",
+		"Object-Oriented Programming",
+		"Databases",
+		"Agile Development"
+	],
+	"professionalExperience": [
+		"Detailed Problem-Solving",
+		"Client Management",
+		"eCommerce &amp; CMS Solutions",
+		"Technical Writing"
+	],
 	"jobs": [
 		{
 			"title": "Solution Architect and Team Lead",
