@@ -70,6 +70,18 @@ const data = {
 			"endDate": "2010",
 			"location": "Milford, PA",
 			"skills": [
+			"MS SQL",
+				"HTML/JS/CSS",
+				"PHP",
+				"Apache",
+				"C#",
+				"ASP.NET",
+				"IIS",
+				"eCommerce",
+				"SAP Business One",
+				"MS SQL",
+				"XML",
+				"Linux"
 			],
 			"accomplishments": [
 				"Maintained eCommerce website running on LAMP",
