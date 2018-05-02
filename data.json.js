@@ -1,20 +1,5 @@
 const data = {
 	"jobs": [
-	/*
-		{
-			"title": "",
-			"company": "",
-			"startDate": "",
-			"endDate": "",
-			"location": "",
-			"skills": [
-				""
-			],
-			"accomplishments": [
-				""
-			]
-		},
-	*/
 		{
 			"title": "Solution Architect and Team Lead",
 			"company": "Valtech, Inc.",
