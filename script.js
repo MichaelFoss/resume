@@ -23,7 +23,6 @@ const init = () => {
 
 		$jobs.innerHTML += jobHTML;
 	});
-	console.log(data);
 };
 
 window.addEventListener('load', init);
