@@ -25,6 +25,7 @@ body {
 .personal-contact,
 .professional-titles,
 .education-detail,
+.career-goal,
 .job-accomplishment,
 .job-skills,
 .professional-experience,
@@ -34,6 +35,7 @@ body {
     font-size: 11px;
 }
 
+.career-goals-header,
 .education-header,
 .employment-history-header,
 .professional-summary-header {
@@ -67,7 +69,7 @@ body {
 }
 
 .job {
-    margin-top: 20px;
+    padding-top: 10px;
 }
 
 .job-title {
@@ -97,23 +99,27 @@ body {
 
 .job-skills {
     line-height: 14px;
-    margin: 2px 0;
+    margin: 6px 0;
 }
 
+.career-goal,
 .education-detail,
 .job-accomplishment {
     list-style-position: inside;
     word-wrap: break-word;
     line-height: 14px;
-    margin: 4px 0
+    margin: 4px 0;
+    text-indent: -30px;
+    padding-left: 29px;
 }
 
 main {
     background-color: #FFF;
     margin: 75px auto;
     min-height: 792px;
-    padding: 75px;
+    padding: 60px 75px;
     width: 662px;
+    border-radius: 60px;
 }
 
 .full-name {
@@ -150,9 +156,8 @@ a:active {
     text-decoration: underline;
 }
 
-.job-accomplishment {
-    text-indent: -9px;
-    padding-left: 9px;
+.page-break-before {
+    page-break-before: always;
 }
 
 @media print {
