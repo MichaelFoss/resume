@@ -8,7 +8,6 @@ const data = {
 		"C#",
 		"JavaScript/ECMAScript",
 		"PHP",
-		"Hybris",
 		"Object-Oriented Programming",
 		"Databases",
 		"Agile Development"
