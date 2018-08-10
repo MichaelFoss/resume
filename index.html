@@ -13,7 +13,7 @@
 		Michael Foss
 	</h1>
 	<address>
-		<a href="https://www.google.com/maps/place/910+Avenue+P,+Matamoras,+PA+18336" target="_blank">907 Ave. R, Matamoras, PA 18336</a>
+		<a href="https://www.google.com/maps/place/907+Avenue+R,+Matamoras,+PA+18336-1933" target="_blank">907 Ave. R, Matamoras, PA 18336-1933</a>
 	</address>
 	<div class="personal-contact">
 		<a type="email" href="mailto:michael@mikefoss.com">michael@mikefoss.com</a> | <a href="tel:8459787113">(845) 978-7113</a>
@@ -29,12 +29,20 @@
 		<div class="professional-experience"></div>
 	</header>
 
-	<h3 class="employment-history-header ">
+	<script id="career-goal-template" type="text/template">
+		<li class="career-goal">
+			{careerGoal}
+		</li>
+	</script>
+
+	<ul id="career-goals"></ul>
+
+	<h3 class="employment-history-header">
 		Employment History
 	</h3>
 
 	<script id="job-template" type="text/template">
-		<div class="job">
+		<div class="job{classNames}">
 			<div>
 				<h4 class="job-title">
 					{title}, {company}
@@ -66,12 +74,13 @@
 	<h3 class="education-header">
 		Education
 	</h3>
+
 	<ul class="education-history">
 		<li class="education-detail">
 			Master of Science, Computer Science, East Stroudsburg University
 		</li>
 		<li class="education-detail">
-			Bachelor of Science, Computer Science, East Stroudsburg University, 2003
+			Bachelor of Science, Computer Science, East Stroudsburg University
 		</li>
 	</ul>
 </main>

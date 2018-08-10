@@ -1,7 +1,9 @@
 const init = () => {
 	const jobTemplate = document.querySelector('#job-template').text;
+	const careerGoalTemplate = document.querySelector('#career-goal-template').text;
 	const accomplishmentTemplate = document.querySelector('#job-accomplishment-template').text;
 	const $jobs = document.querySelector('#jobs');
+	const $careerGoals = document.querySelector('#career-goals');
 
 	data.jobs.forEach(job => {
 		const accomplishments = [];
@@ -13,7 +15,17 @@ const init = () => {
 			);
 		});
 
+		let classNames = '';
+		if (job.classNames) {
+			if (Array.isArray(job.classNames)) {
+				job.classNames = ' ' + job.classNames.join(' ');
+			}
+			else {
+				classNames = ' ' + job.classNames;
+			}
+		}
 		const jobHTML = jobTemplate
+			.replace(/\{classNames\}/, classNames)
 			.replace(/\{title\}/, job.title)
 			.replace(/\{company\}/, job.company)
 			.replace(/\{startDate\}/, job.startDate)

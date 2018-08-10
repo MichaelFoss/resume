@@ -5,28 +5,55 @@ const data = {
 		"Full Stack Developer"
 	],
 	"skills": [
+		"C#",
+		"JavaScript/ECMAScript",
 		"PHP",
-		"Javascript/Ecmascript",
+		"Hybris",
 		"Object-Oriented Programming",
 		"Databases",
 		"Agile Development"
 	],
 	"professionalExperience": [
 		"Detailed Problem-Solving",
-		"Client Management",
 		"eCommerce &amp; CMS Solutions",
-		"Technical Writing"
+		"Client Management",
+		"Soft Skills"
 	],
 	"jobs": [
+		{
+			"title": "Lead Front-End Developer",
+			"company": "Valtech, Inc.",
+			"startDate": "2016",
+			"endDate": "Present",
+			"location": "New York, NY",
+			"skills": [
+				"HTML/JS/ES6/CSS",
+				"Backbone.js",
+				"Node/NPM",
+				"Gulp",
+				"Hybris",
+				"JIRA",
+				"Git",
+				"eCommerce"
+			],
+			"accomplishments": [
+				"Led international team of 4-6 American, Argentinian & Indian developers",
+				"Filled in holes of project manager, business analyst, and solution architect when needed",
+				"Revamped eCommerce website in tight deadline and tighter budget",
+				"Worked closely with client to guide them through process and earn their trust",
+				"Earned additional business of maintaining future internal websites, and led teams to develop them",
+				"Trained junior & novice developers in best-practices for front-end development, source code control, and Agile methodologies"
+			]
+		},
+
 		{
 			"title": "Solution Architect and Team Lead",
 			"company": "Valtech, Inc.",
 			"startDate": "2012",
-			"endDate": "Present",
+			"endDate": "2017",
 			"location": "New York, NY",
 			"skills": [
 				"HTML5/CSS3",
-				"Jira",
 				"ES6",
 				"Backbone.js",
 				"React",
@@ -44,10 +71,14 @@ const data = {
 			],
 			"accomplishments": [
 				"Grew company start-up size from 17 employees to 70+",
-				"Saved failing relationship with &num;1 client",
-				"Rebuilt eCommerce website in 6 months",
-				"Created sister eCommerce website in 6 months",
-				"Managed teams ranging from 2-6 developers"
+				"Saved failing relationship with &num;1 client, a top international fashion & beauty company",
+				"Requested by said client for several years due to consistent high-quality work",
+				"Rebuilt eCommerce website in 6 months, maintained until recently removed",
+				"Created sister eCommerce website in 6 months, maintained until recently removed",
+				"Worked closely with client, third party creative firm, and Valtech upper management to craft solutions",
+				"Architected & developed standalone several data management applications",
+				"Managed multiple teams ranging from 2-6 developers",
+				"Trained multiple junior & novice developers, many of whom are now senior-level"
 			]
 		},
 
@@ -65,14 +96,16 @@ const data = {
 			],
 			"accomplishments": [
 				"Contributed to Verizon advertisement platform",
-				"Created internal task list application using LAMP stack"
-			]
+				"Created internal task list application using LAMP stack",
+				"Worked with high-end technical team to provide deliverables on short timeline",
+			],
+			"classNames": "page-break-before",
 		},
 
 		{
 			"title": "Lead Web Developer",
 			"company": "Clarion Safety Systems",
-			"startDate": "2013",
+			"startDate": "2003",
 			"endDate": "2010",
 			"location": "Milford, PA",
 			"skills": [
@@ -90,8 +123,14 @@ const data = {
 				"Linux"
 			],
 			"accomplishments": [
-				"Maintained eCommerce website running on LAMP",
+				"Created & maintained custom-built eCommerce website running on LAMP stack",
+				"Worked with internal employees to design, develop, and maintain an order & quote entry application that boosted productivity and reduced time-to-entry",
+				"Created custom internal chat software to allow for intercompany communication",
+				"Responsible for generating over $1M/year in trackable website revenue",
 				"Transitioned website into .NET architecture and integrated with SAP Business One",
+				"Assisted third party tech firm in performing business transformations to further growth",
+				"Took classes on SAP data internals to prepare for business transition",
+				"Architected data synchronization tool that allowed custom-built website to integrate seamlessly with new SAP Business One CRM",
 				"Created &amp; managed data application tool used by over 50 employees"
 			]
 		}
