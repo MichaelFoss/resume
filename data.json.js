@@ -1,37 +1,108 @@
 const data = {
 	"professionalTitles": [
+    "Senior Front-End Developer",
 		"Solution Architect",
 		"Team Lead",
 		"Full Stack Developer"
 	],
 	"skills": [
-		"C#",
-		"JavaScript/ECMAScript",
-		"PHP",
-		"Hybris",
-		"Object-Oriented Programming",
+		"Javascript/ES6",
+    "React/React Native",
+		"Node/NPM",
+    "CSS/Sass",
+		"Functional &amp; Object-Oriented Programming",
 		"Databases",
-		"Agile Development"
+		"Agile Development/Scrum Methodologies"
 	],
 	"professionalExperience": [
 		"Detailed Problem-Solving",
+		"Startup Environments",
 		"eCommerce &amp; CMS Solutions",
-		"Client Management",
-		"Soft Skills"
+		"Client Management"
 	],
 	"jobs": [
 		{
+      "project": "Dolby Redesign",
+			"title": "Lead Front-End Developer",
+			"company": "Valtech, Inc.",
+			"startDate": "2019",
+			"endDate": "2019",
+			"location": "New York, NY",
+			"skills": [
+				"ES6/Sass/HTML",
+				"Vue.js",
+				"Node/NPM",
+				"Gulp",
+				"JIRA",
+				"Git"
+			],
+			"accomplishments": [
+        "Redesigned consumer-facing website for high-end audio company",
+        "Led team of 4 international front-end developers",
+        "Worked with senior team members to drive project forward",
+        "Layered Vue.js architecture on top of Episerver backend"
+      ]
+    },
+
+    {
+      "project": "Chanel COBY",
+			"title": "Senior Front-End Developer",
+			"company": "Valtech, Inc.",
+			"startDate": "2018",
+			"endDate": "2018",
+			"location": "New York, NY",
+			"skills": [
+				"ES6/CSS",
+				"React Native",
+				"Node/NPM",
+				"Webpack",
+				"JIRA",
+				"Git"
+			],
+			"accomplishments": [
+        "Created internal B2B commerce iOS app from scratch",
+        "Integrated with Hybris backend using REST APIs",
+        "Acted as sole frontend developer, creating styles and application",
+        "Worked closely with client to capture business requirements and make recommendations"
+      ]
+    },
+
+    {
+      "project": "Chanel DCC",
+			"title": "Senior Front-End Developer",
+			"company": "Valtech, Inc.",
+			"startDate": "2017",
+			"endDate": "2017",
+			"location": "New York, NY",
+			"skills": [
+				"ES6/Sass/HTML",
+				"React",
+				"Node/NPM",
+				"Webpack",
+				"JIRA",
+				"Git",
+				"REST"
+			],
+			"accomplishments": [
+        "Wrote &amp; maintained website for interfacing with client account data",
+        "Created server-side APIs in a server-based Node program",
+        "Integrated with third-party database using LDAP authentication",
+        "Acted as sole developer, but also assisted client in project management"
+      ]
+    },
+
+		{
+      "project": "Westcon",
 			"title": "Lead Front-End Developer",
 			"company": "Valtech, Inc.",
 			"startDate": "2016",
-			"endDate": "Present",
+			"endDate": "2017",
 			"location": "New York, NY",
 			"skills": [
-				"HTML/JS/ES6/CSS",
+				"HTML/JS/ES6/Less",
 				"Backbone.js",
 				"Node/NPM",
 				"Gulp",
-				"Hybris",
 				"JIRA",
 				"Git",
 				"eCommerce"
@@ -47,6 +118,7 @@ const data = {
 		},
 
 		{
+      "project": "Chanel F&B/Sunglasses",
 			"title": "Solution Architect and Team Lead",
 			"company": "Valtech, Inc.",
 			"startDate": "2012",
@@ -83,6 +155,7 @@ const data = {
 		},
 
 		{
+      "project": "Whatup/Verizon",
 			"title": "Full Stack Developer",
 			"company": "Jack Morton Worldwide",
 			"startDate": "2011",
@@ -99,10 +172,11 @@ const data = {
 				"Created internal task list application using LAMP stack",
 				"Worked with high-end technical team to provide deliverables on short timeline",
 			],
-			"classNames": "page-break-before",
+			"classNames": "_NOT_page-break-before",
 		},
 
 		{
+      "project": "Clarion eCommerce",
 			"title": "Lead Web Developer",
 			"company": "Clarion Safety Systems",
 			"startDate": "2003",
