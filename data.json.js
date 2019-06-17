@@ -1,4 +1,5 @@
 const data = {
+  "summary": "Backend-turned-frontend developer looking to grow a company. Brings years of experience in fullstack mentality, detail-oriented development, and team-based leadership. Best-practices based on industry standards preferred whenever possible. Challenges welcomed.",
 	"professionalTitles": [
     "Senior Front-End Developer",
 		"Solution Architect",
@@ -22,11 +23,37 @@ const data = {
 	],
 	"jobs": [
 		{
-      "project": "Dolby Redesign",
+      "id": "daddario-redesign",
+      "project": "D'Addario Website Redesign",
+			"title": "Senior Front-End Developer",
+			"company": "Valtech, Inc.",
+			"startDate": "2019",
+      "endDate": "present",
+			"location": "New York, NY",
+			"skills": [
+				"ES6/Sass/HTML",
+				"Backbone",
+				"Node/NPM",
+				"Webpack",
+        "Swagger",
+				"JIRA",
+				"Git/Azure Devops",
+        "Episerver"
+			],
+			"accomplishments": [
+        "Brought in as specialist front-end developer to save failing project",
+        "Part of international team of developers",
+        "Resolve bugs and created new components from scratch",
+        "Improved process flow to increase productivity of team members"
+      ]
+    },
+
+		{
+      "id": "dolby-redesign",
+      "project": "Dolby Website Redesign",
 			"title": "Lead Front-End Developer",
 			"company": "Valtech, Inc.",
 			"startDate": "2019",
-			"endDate": "2019",
 			"location": "New York, NY",
 			"skills": [
 				"ES6/Sass/HTML",
@@ -34,17 +61,20 @@ const data = {
 				"Node/NPM",
 				"Gulp",
 				"JIRA",
-				"Git"
+				"Git/Github",
+        "Episerver"
 			],
 			"accomplishments": [
         "Redesigned consumer-facing website for high-end audio company",
         "Led team of 4 international front-end developers",
         "Worked with senior team members to drive project forward",
-        "Layered Vue.js architecture on top of Episerver backend"
+        "Layered Vue.js architecture on top of Episerver backend",
+        "Dealt with high animation demands from client to create unique user experience"
       ]
     },
 
     {
+      "id": "chanel-coby",
       "project": "Chanel COBY",
 			"title": "Senior Front-End Developer",
 			"company": "Valtech, Inc.",
@@ -54,10 +84,11 @@ const data = {
 			"skills": [
 				"ES6/CSS",
 				"React Native",
+        "Storybook",
 				"Node/NPM",
 				"Webpack",
 				"JIRA",
-				"Git"
+				"Git/Bitbucket"
 			],
 			"accomplishments": [
         "Created internal B2B commerce iOS app from scratch",
@@ -68,6 +99,7 @@ const data = {
     },
 
     {
+      "id": "chanel-dcc",
       "project": "Chanel DCC",
 			"title": "Senior Front-End Developer",
 			"company": "Valtech, Inc.",
@@ -80,7 +112,8 @@ const data = {
 				"Node/NPM",
 				"Webpack",
 				"JIRA",
-				"Git",
+				"Git/Bitbucket",
+        "MS SQL",
 				"REST"
 			],
 			"accomplishments": [
@@ -92,6 +125,7 @@ const data = {
     },
 
 		{
+      "id": "westcon",
       "project": "Westcon",
 			"title": "Lead Front-End Developer",
 			"company": "Valtech, Inc.",
@@ -104,7 +138,7 @@ const data = {
 				"Node/NPM",
 				"Gulp",
 				"JIRA",
-				"Git",
+				"Git/Bitbucket",
 				"eCommerce"
 			],
 			"accomplishments": [
@@ -118,6 +152,7 @@ const data = {
 		},
 
 		{
+      "id": "chanel-fb-sunglasses",
       "project": "Chanel F&B/Sunglasses",
 			"title": "Solution Architect and Team Lead",
 			"company": "Valtech, Inc.",
@@ -131,7 +166,7 @@ const data = {
 				"React",
 				"React Native",
 				"Node.js",
-				"Git",
+				"Git/Bitbucket",
 				"PHP",
 				"C#",
 				"Apache",
@@ -155,6 +190,7 @@ const data = {
 		},
 
 		{
+      "id": "whatup-verizon",
       "project": "Whatup/Verizon",
 			"title": "Full Stack Developer",
 			"company": "Jack Morton Worldwide",
@@ -176,6 +212,7 @@ const data = {
 		},
 
 		{
+      "id": "clarion-ecommerce",
       "project": "Clarion eCommerce",
 			"title": "Lead Web Developer",
 			"company": "Clarion Safety Systems",

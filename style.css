@@ -24,6 +24,7 @@ body {
 
 .personal-contact,
 .professional-titles,
+.summary-contents,
 .education-detail,
 .job-accomplishment,
 .job-skills,
@@ -34,6 +35,7 @@ body {
     font-size: 11px;
 }
 
+.summary-header,
 .education-header,
 .employment-history-header,
 .professional-summary-header {
@@ -95,6 +97,7 @@ body {
     float: right;
 }
 
+.summary-contents,
 .job-skills {
     line-height: 14px;
     margin: 6px 0;

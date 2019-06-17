@@ -1,9 +1,16 @@
 const init = () => {
+	const summaryTemplate = document.querySelector('#summary-template').text;
 	const jobTemplate = document.querySelector('#job-template').text;
 	const careerGoalTemplate = document.querySelector('#career-goal-template').text;
 	const accomplishmentTemplate = document.querySelector('#job-accomplishment-template').text;
 	const $jobs = document.querySelector('#jobs');
 	const $careerGoals = document.querySelector('#career-goals');
+	const $summary = document.querySelector('#summary');
+
+  if (data.hasOwnProperty('summary') && data.summary) {
+    $summary.innerHTML = summaryTemplate
+      .replace(/\{summary\}/, data.summary);
+  }
 
 	data.jobs.forEach(job => {
 		const accomplishments = [];
