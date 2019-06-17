@@ -32,6 +32,7 @@ const init = () => {
 			}
 		}
 		const jobHTML = jobTemplate
+      .replace(/\{id\}/, job.id)
 			.replace(/\{classNames\}/, classNames)
 			.replace(/\{title\}/, job.title)
 			.replace(/\{company\}/, job.company)
