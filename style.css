@@ -38,7 +38,7 @@ body {
 .employment-history-header,
 .professional-summary-header {
     color: #0098BA;
-    font-family: HelveticaNeue-CondensedBold, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: HelveticaNeue, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 20px;
     text-transform: uppercase;
     margin-top: 19px;
@@ -124,7 +124,7 @@ main {
     line-height: 1;
     color: #0098BA;
     display: block;
-    font-family: HelveticaNeue-CondensedBold, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: HelveticaNeue, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 32px;
 }
 
