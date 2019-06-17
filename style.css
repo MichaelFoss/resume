@@ -22,6 +22,10 @@ body {
     cursor: auto;
 }
 
+.hidden {
+    display: none;
+}
+
 .personal-contact,
 .professional-titles,
 .summary-contents,
@@ -81,6 +85,7 @@ body {
     word-wrap: break-word;
 }
 
+.job-date,
 .job-dates,
 .job-location {
     font-family: Georgia, serif;
@@ -93,6 +98,7 @@ body {
     font-weight: bold;
 }
 
+.job-date,
 .job-dates {
     float: right;
 }
