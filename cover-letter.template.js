@@ -50,7 +50,7 @@ let template = `
 
       <p class="break-after">
         My desire is to contribute to a company that has quality and
-        attention to detail as core values. I am interestede in getting
+        attention to detail as core values. I am interested in getting
         things done on-time, but am willing to prepare the timeline
         to include getting them done <em>right</em> - that means
         code quality, code reviews, and thorough testing.
