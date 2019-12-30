@@ -48,4 +48,3 @@ let template = `
     </main>
   </section>
 `;
-

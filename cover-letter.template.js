@@ -93,4 +93,3 @@ let template = `
       </section>
     </section>
 `;
-
