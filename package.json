@@ -1,0 +1,32 @@
+{
+  "name": "michael-foss-resume",
+  "version": "1.0.0",
+  "description": "Michael Foss' Résumé.",
+  "main": "index.html",
+  "devDependencies": {
+    "husky": "^3.1.0",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1"
+  },
+  "scripts": {
+    "test": "eslint echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelFoss/resume.git"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "author": "Michael Foss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichaelFoss/resume/issues"
+  },
+  "homepage": "https://github.com/MichaelFoss/resume#readme"
+}
