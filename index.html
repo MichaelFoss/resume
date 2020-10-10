@@ -1,101 +1,102 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <title>Michael Foss &mdash; Résumé</title>
-        <link rel="stylesheet" href="style.css" />
-        <script type="text/javascript" src="data.json.js"></script>
-        <script type="text/javascript" src="script.js"></script>
-    </head>
-    <body>
-        <main>
-            <h1 class="full-name">
-                Michael Foss
-            </h1>
-            <address>
-                <a
-                    href="https://www.google.com/maps/place/907+Avenue+R,+Matamoras,+PA+18336-1933"
-                    target="_blank"
-                    >907 Ave. R, Matamoras, PA 18336-1933</a
-                >
-            </address>
-            <div class="personal-contact">
-                <a type="email" href="mailto:michael@mikefoss.com"
-                    >michael@mikefoss.com</a
-                >
-                | <a href="tel:8459787113">(845) 978-7113</a>
-            </div>
+	<head>
+		<meta charset="utf-8" />
+		<title>Michael Foss &mdash; Résumé</title>
+		<link rel="stylesheet" href="style.css" />
+		<script type="text/javascript" src="data.json.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body>
+		<main>
+			<h1 class="full-name">
+				Michael Foss
+			</h1>
+			<address>
+				<a
+					href="https://www.google.com/maps/place/907+Avenue+R,+Matamoras,+PA+18336-1933"
+					target="_blank"
+					>907 Ave. R, Matamoras, PA 18336-1933</a
+				>
+			</address>
+			<div class="personal-contact">
+				<a type="email" href="mailto:michael@mikefoss.com"
+					>michael@mikefoss.com</a
+				>
+				| <a href="tel:8459787113">(845) 978-7113</a>
+			</div>
 
-            <h2 class="professional-summary-header">
-                Professional Summary
-            </h2>
+			<h2 class="professional-summary-header">
+				Professional Summary
+			</h2>
 
-            <header>
-                <div class="professional-titles"></div>
-                <div class="skills"></div>
-                <div class="professional-experience"></div>
-            </header>
+			<header>
+				<div class="professional-titles"></div>
+				<div class="skills"></div>
+				<div class="professional-experience"></div>
+			</header>
 
-            <script id="career-goal-template" type="text/template">
-                <li class="career-goal">
-                	{careerGoal}
-                </li>
-            </script>
+			<script id="career-goal-template" type="text/template">
+				<li class="career-goal">
+					{careerGoal}
+				</li>
+			</script>
 
-            <ul id="career-goals"></ul>
+			<ul id="career-goals"></ul>
 
-            <h3 class="employment-history-header">
-                Employment History
-            </h3>
+			<h3 class="employment-history-header">
+				Employment History
+			</h3>
 
-            <script id="job-template" type="text/template">
-                <div class="job{classNames}">
-                	<div>
-                		<h4 class="job-title">
-                			{title}, {company}
-                		</h4>
-                		<span class="job-dates">
-                			{startDate} - {endDate}
-                		</span>
-                	</div>
-                	<div class="job-location">
-                		{location}
-                	</div>
-                	<div class="job-skills">
-                		{skills}
-                	</div>
-                	<ul class="job-accomplishments">
-                		{accomplishments}
-                	</ul>
-                </div>
-            </script>
 
-            <script id="job-accomplishment-template" type="text/template">
-                <li class="job-accomplishment">
-                	{accomplishment}
-                </li>
-            </script>
+			<script id="job-template" type="text/template">
+				<div class="job{classNames}">
+					<div>
+						<h4 class="job-title">
+							{title}, {company}
+						</h4>
+						<span class="job-dates">
+							{startDate} - {endDate}
+						</span>
+					</div>
+					<div class="job-location">
+						{location}
+					</div>
+					<div class="job-skills">
+						{skills}
+					</div>
+					<ul class="job-accomplishments">
+						{accomplishments}
+					</ul>
+				</div>
+			</script>
 
-            <div id="jobs"></div>
+			<script id="job-accomplishment-template" type="text/template">
+				<li class="job-accomplishment">
+					{accomplishment}
+				</li>
+			</script>
 
-            <h3 class="education-header">
-                Education
-            </h3>
+			<div id="jobs"></div>
 
-            <ul class="education-history">
-                <li class="education-detail">
-                    All 10 courses towards Master of Science, Computer Science,
-                    East Stroudsburg University
-                </li>
-                <li class="education-detail">
-                    Bachelor of Science, Computer Science, East Stroudsburg
-                    University
-                </li>
-            </ul>
+			<h3 class="education-header">
+				Education
+			</h3>
 
-            <a href="Michael-Foss-Resume.pdf" target="_blank" class="download">
-                Download
-            </a>
-        </main>
-    </body>
+			<ul class="education-history">
+				<li class="education-detail">
+					Completing Master of Science (ETA Spring 2021), Computer Science,
+					East Stroudsburg University
+				</li>
+				<li class="education-detail">
+					Bachelor of Science, Computer Science, East Stroudsburg
+					University
+				</li>
+			</ul>
+
+			<a href="Michael-Foss-Resume.pdf" target="_blank" class="download">
+				Download
+			</a>
+		</main>
+	</body>
 </html>
