@@ -8,6 +8,64 @@
 		<script type="text/javascript" src="script.js"></script>
 	</head>
 	<body>
+
+		<script id="company-template" type="text/template">
+			<li class="company">
+				<div class="company-details{classNames}">
+					<div class="company-name">
+						{name}
+					</div>
+					<div class="company-location">
+						{location}
+					</div>
+					<span class="company-dates">
+						{dates}
+					</span>
+				</div>
+				<ul class="company-accomplishments">
+					{companyAccomplishments}
+				</ul>
+				<h4 class="projects-header">Projects</h4>
+				<div class="projects">
+					{projects}
+				</div>
+			</li>
+		</script>
+
+		<script id="project-template" type="text/template">
+			<div class="project{classNames}">
+				<div class="project-summary">
+					<h5 class="project-name">
+						{name}
+					</h5>
+					<h6 class="project-role">
+						{role}
+					</h6>
+					<span class="project-dates">
+						{dates}
+					</span>
+				</div>
+				<div class="project-skills">
+					{skills}
+				</div>
+				<ul class="project-details">
+					{details}
+				</ul>
+			</div>
+		</script>
+
+		<script id="company-accomplishment-template" type="text/template">
+			<li class="company-accomplishment">
+				{companyAccomplishment}
+			</li>
+		</script>
+
+		<script id="project-detail-template" type="text/template">
+			<li class="project-detail">
+				{projectDetail}
+			</li>
+		</script>
+
 		<main>
 			<h1 class="full-name">
 				Michael Foss
@@ -34,50 +92,14 @@
 				<div class="professional-titles"></div>
 				<div class="skills"></div>
 				<div class="professional-experience"></div>
+				<div class="education">Bachelor &amp; Master of Science (ETA Spring 2021), Computer Science, East Stroudsburg University</div>
 			</header>
-
-			<script id="career-goal-template" type="text/template">
-				<li class="career-goal">
-					{careerGoal}
-				</li>
-			</script>
-
-			<ul id="career-goals"></ul>
 
 			<h3 class="employment-history-header">
 				Employment History
 			</h3>
 
-
-			<script id="job-template" type="text/template">
-				<div class="job{classNames}">
-					<div>
-						<h4 class="job-title">
-							{title}, {company}
-						</h4>
-						<span class="job-dates">
-							{startDate} - {endDate}
-						</span>
-					</div>
-					<div class="job-location">
-						{location}
-					</div>
-					<div class="job-skills">
-						{skills}
-					</div>
-					<ul class="job-accomplishments">
-						{accomplishments}
-					</ul>
-				</div>
-			</script>
-
-			<script id="job-accomplishment-template" type="text/template">
-				<li class="job-accomplishment">
-					{accomplishment}
-				</li>
-			</script>
-
-			<div id="jobs"></div>
+			<ul id="companies"></ul>
 
 			<h3 class="education-header">
 				Education
@@ -85,12 +107,14 @@
 
 			<ul class="education-history">
 				<li class="education-detail">
-					Completing Master of Science (ETA Spring 2021), Computer Science,
+					Master of Science (ETA Spring 2021),
+					Computer Science,
 					East Stroudsburg University
 				</li>
 				<li class="education-detail">
-					Bachelor of Science, Computer Science, East Stroudsburg
-					University
+					Bachelor of Science,
+					Computer Science,
+					East Stroudsburg University
 				</li>
 			</ul>
 

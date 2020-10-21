@@ -35,11 +35,15 @@ body {
 
 .personal-contact,
 .professional-titles,
+.education,
 .education-detail,
-.job-accomplishment,
-.job-skills,
+.company-accomplishment,
+.company-skills,
+.skills,
 .professional-experience,
-.skills {
+.project-skills,
+.company-accomplishments,
+.project-details {
 	color: #666;
 	font-family: Georgia, serif;
 	font-size: 11px;
@@ -47,7 +51,8 @@ body {
 
 .education-header,
 .employment-history-header,
-.professional-summary-header {
+.professional-summary-header,
+.projects-header {
 	color: #0098ba;
 	font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 20px;
@@ -56,6 +61,7 @@ body {
 	border-top: dotted #0098ba 2px;
 	padding-top: 16px;
 	margin-bottom: 10px;
+	text-align: center;
 }
 
 .professional-summary-header {
@@ -64,6 +70,7 @@ body {
 
 .professional-titles,
 .professional-experience,
+.education,
 .skills {
 	display: inline-block;
 	text-align: center;
@@ -77,42 +84,121 @@ body {
 	margin-bottom: 0;
 }
 
-.job {
-	padding-top: 10px;
+.company {
+	list-style: none;
+	border-top: dotted #66ccaa 2px;
+	padding-top: 6px;
+	margin-top: 28px;
 }
 
-.job-title {
+.company:first-child {
+	border-top: none;
+	padding-top: 0;
+	margin-top: 20px;
+}
+
+.company-details {
+	position: relative;
+}
+
+.company-name {
 	font-family: Georgia, serif;
-	font-size: 12px;
+	font-size: 20px;
+	font-weight: bold;
 	color: #343434;
 	width: 75%;
 	display: inline-block;
 	word-wrap: break-word;
 }
 
-.job-dates,
-.job-location {
+.company-location {
 	font-family: Georgia, serif;
 	font-size: 10px;
 	color: #343434;
 	font-weight: bold;
+	margin-top: 4px;
 }
 
-.job-title {
-	font-weight: bold;
-}
-
-.job-dates {
+.company-dates {
 	float: right;
+	font-family: Georgia, serif;
+	font-size: 36px;
+	color: #D0D0D0;
+	font-weight: bold;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin-top: -10px;
 }
 
-.job-skills {
-	line-height: 14px;
-	margin: 6px 0;
+.company-accomplishments {
+	margin-top: 6px;
+	margin-left: 16px;
+}
+
+.company-accomplishment {
+	margin: 4px 0;
+}
+
+.projects-header {
+	display: none; /* This is an ugly title; remove it for now */
+	font-size: 16px;
+	border-top: 0;
+	margin: 0;
+	padding: 16px 0 0;
+	line-height: 12px;
+}
+
+.projects {
+}
+
+.project {
+	page-break-inside: avoid;
+}
+
+.project-summary {
+	position: relative;
+	margin-top: 16px;
+}
+
+.project-name {
+	margin: 0;
+	padding: 0;
+}
+
+.project-role {
+	margin: 4px 0 0;
+	padding: 0;
+	font-style: italic;
+	font-size: 12px;
+}
+
+.project-dates {
+	float: right;
+	font-family: Georgia, serif;
+	font-size: 24px;
+	color: #D0D0D0;
+	font-weight: bold;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.project-skills {
+	font-family: Georgia, serif;
+	line-height: 16px;
+	margin: 6px 0 0;
+	font-style: italic;
+}
+
+.project-details {
+	font-family: Georgia, serif;
+	margin-top: 8px;
+	margin-left: 20px;
 }
 
 .education-detail,
-.job-accomplishment {
+.project-detail {
 	list-style-position: inside;
 	word-wrap: break-word;
 	line-height: 14px;
@@ -123,9 +209,9 @@ body {
 
 main {
 	background-color: #fff;
-	margin: 75px auto;
+	margin: 60px auto;
 	min-height: 792px;
-	padding: 60px 75px;
+	padding: 55px 75px;
 	width: 662px;
 	border-radius: 60px;
 }
@@ -178,6 +264,12 @@ a:active {
 	width: 50px;
 	height: 50px;
 	text-indent: -9999px;
+}
+
+.education-header,
+.education-history {
+	/* These take up too much space */
+	display: none;
 }
 
 @media print {
