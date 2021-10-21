@@ -23,10 +23,48 @@ const data = {
 	],
 	companies: [
 		{
+			name: 'Blend',
+			dates: {
+				start: '2021',
+				end: '',
+			},
+			location: 'San Francisco, CA',
+			isRemoteLocation: true,
+			accomplishments: [
+				'Lead a young team in a startup environment by providing mentorship and ensuring best practices',
+				'Onboarded quickly and owned several large parts of the application codebase',
+				'Learned new technologies and tools to integrate with the rest of the development lifecycle',
+			],
+			projects: [
+				{
+					name: 'Financial Web Application',
+					role: 'Software Engineer (IC5)',
+					dates: {
+						start: '2021',
+						end: '',
+					},
+					skills: [
+						'Typescript',
+						'React',
+						'Redux',
+						'Node',
+						'Unit Testing',
+					],
+					details: [
+						'Develop, review, and maintain front-end code in a React-based client/server architecture',
+						'Worked with a smaller, younger team to provide senior leadership and direction',
+						'Deliver continued releases over an Agile workflow',
+						'Use multiple environments and deployment pipeline for various testing stages',
+					],
+				},
+			],
+		},
+
+		{
 			name: 'Tandemseven/Rightpoint',
 			dates: {
 				start: '2020',
-				end: '',
+				end: '2021',
 			},
 			location: 'New York, NY',
 			isRemoteLocation: true,
