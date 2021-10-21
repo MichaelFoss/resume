@@ -27,6 +27,7 @@ const data = {
 				end: '',
 			},
 			location: 'New York, NY',
+			isRemoteLocation: true,
 			accomplishments: [
 				'Help to mentor various levels of developers',
 			],

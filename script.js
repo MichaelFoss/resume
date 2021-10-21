@@ -42,7 +42,7 @@ const renderCompany = company => {
 		.replace(/\{name\}/, company.name || '')
 		.replace(/\{company\}/, company.company || '')
 		.replace(/\{dates\}/, renderDates(company.dates))
-		.replace(/\{location\}/, company.location || '')
+		.replace(/\{location\}/, company.location && `${company.location}${company.isRemoteLocation && ' <em>(remote)</em>' || ''}` || '')
 		.replace(/\{projects\}/, (company.projects || []).map(renderProject).join(''))
 		.replace(/\{companyAccomplishments\}/, (company.accomplishments || []).map(renderCompanyAccomplishment).join(''));
 
