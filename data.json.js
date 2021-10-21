@@ -1,17 +1,19 @@
 const data = {
 	professionalTitles: [
 		'Solution Architect',
+		'Software Engineer',
 		'Team Lead',
-		'Full Stack Developer',
-		'Front-End Developer',
+		'Front-End Dev',
+		'Full Stack Dev',
 	],
 	skills: [
-		'ES6',
-		'Node.js',
+		'Javascript',
 		'React',
+		'Node',
+		'Functional Programming',
 		'Object-Oriented Programming',
 		'Databases',
-		'Agile Development',
+		'Agile',
 	],
 	professionalExperience: [
 		'Detailed Problem-Solving',
