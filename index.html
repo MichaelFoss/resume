@@ -11,23 +11,25 @@
 
 		<script id="company-template" type="text/template">
 			<li class="company">
-				<div class="company-details{classNames}">
-					<div class="company-name">
-						{name}
+				<div class="company-wrapper">
+					<div class="company-details{classNames}">
+						<div class="company-name">
+							{name}
+						</div>
+						<div class="company-location">
+							{location}
+						</div>
+						<span class="company-dates">
+							{dates}
+						</span>
 					</div>
-					<div class="company-location">
-						{location}
+					<ul class="company-accomplishments">
+						{companyAccomplishments}
+					</ul>
+					<h4 class="projects-header">Projects</h4>
+					<div class="projects">
+						{projects}
 					</div>
-					<span class="company-dates">
-						{dates}
-					</span>
-				</div>
-				<ul class="company-accomplishments">
-					{companyAccomplishments}
-				</ul>
-				<h4 class="projects-header">Projects</h4>
-				<div class="projects">
-					{projects}
 				</div>
 			</li>
 		</script>
