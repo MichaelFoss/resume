@@ -23,6 +23,45 @@ const data = {
     ],
     companies: [
         {
+            name: 'MDpanel',
+            dates: {
+                start: '2024',
+                end: '2025',
+            },
+            location: 'Los Angeles, CA',
+            isRemoteLocation: true,
+            accomplishments: [
+                'Designed & developed projects in a startup environment',
+                'Built up internal UI library for use in multiple applications',
+                'Became acclimated with medical injury claims processes',
+            ],
+            projects: [
+                {
+                    name: 'Medical Web Application',
+                    role: 'Senior Software Engineer - Frontend',
+                    dates: {
+                        start: '2024',
+                        end: '2025',
+                    },
+                    skills: [
+                        'Typescript',
+                        'React',
+                        'NextJS',
+                        'GraphQL',
+                        'Mantine',
+                        'Storybook',
+                    ],
+                    details: [
+                        'Created prototype application to intake data & files for medical purposes',
+                        'Created full application based on original allowing authentication',
+                        'Released continuously using CI/CD',
+                        'Accelerated development process by augmenting AI',
+                    ],
+                },
+            ],
+        },
+
+        {
             name: 'Blend',
             dates: {
                 start: '2021',
