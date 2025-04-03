@@ -23,6 +23,7 @@ const data = {
         {
             name: 'MDpanel',
             dates: {
+                time: '½ year',
                 start: '2024',
                 end: '2025',
             },
@@ -62,6 +63,7 @@ const data = {
         {
             name: 'Blend',
             dates: {
+                time: '2½ years',
                 start: '2021',
                 end: '2024',
             },
@@ -114,6 +116,7 @@ const data = {
         {
             name: 'Rightpoint',
             dates: {
+                time: '1½ years',
                 start: '2020',
                 end: '2021',
             },
@@ -149,6 +152,7 @@ const data = {
         {
             name: 'Valtech, Inc.',
             dates: {
+                time: '8½ years',
                 start: '2012',
                 end: '2020',
             },
@@ -271,6 +275,7 @@ const data = {
         {
             name: 'Jack Morton Worldwide',
             dates: {
+                time: '½ year',
                 start: '2011',
                 end: '2012',
             },
@@ -320,6 +325,7 @@ const data = {
         {
             name: 'Clarion Safety Systems',
             dates: {
+                time: '8 years',
                 start: '2003',
                 end: '2010',
             },
