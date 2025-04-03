@@ -7,11 +7,9 @@ const data = {
         'Full Stack Dev',
     ],
     skills: [
-        'Javascript',
+        'Typescript',
         'React',
         'Node',
-        'Functional Programming',
-        'Object-Oriented Programming',
         'Databases',
         'Agile',
     ],
@@ -70,7 +68,7 @@ const data = {
             location: 'San Francisco, CA',
             isRemoteLocation: true,
             accomplishments: [
-                'Lead a young team in a startup environment by providing mentorship and ensuring best practices',
+                'Led a young team in a startup environment by providing mentorship and ensuring best practices',
                 'Onboarded quickly and owned several large parts of the application codebase',
                 'Learned new technologies and tools to integrate with the rest of the development lifecycle',
             ],
@@ -86,12 +84,26 @@ const data = {
                         'Typescript',
                         'React',
                         'Redux',
+                        'GitHub Enterprise',
+                        'Storybook',
+                        'Swagger',
+                        'Grommet',
+                        'Microservices',
                         'Node',
-                        'Unit Testing',
+                        'Postgresql',
+                        'Jest',
+                        'Enzyme',
+                        'React Testing Library',
                     ],
                     details: [
-                        'Develop, review, and maintain front-end code in a React-based client/server architecture',
-                        'Worked with a smaller, younger team to provide senior leadership and direction',
+                        'Launched React product by writing mostly frontend and some backend code',
+                        'Planned, coded, and launched subsequent mobile version of application for phones & tablets',
+                        'Maintained custom Grommet UI library using Storybook & private NPM repo',
+                        'Created multiple API endpoints in microservices architecture with multiple consumers',
+                        'Integrated microservices into application from multiple in-house and third-party sources',
+                        'Created & updated public APIs, including documentation and testing, using Swagger',
+                        'Acted as best practice lead by providing code reviews, technical discussions, and mentoring',
+                        'Produced end-to-end, integration, and unit tests while maintaining 100% code coverage',
                         'Deliver continued releases over an Agile workflow',
                         'Use multiple environments and deployment pipeline for various testing stages',
                     ],
@@ -100,7 +112,7 @@ const data = {
         },
 
         {
-            name: 'Tandemseven/Rightpoint',
+            name: 'Rightpoint',
             dates: {
                 start: '2020',
                 end: '2021',
@@ -122,6 +134,7 @@ const data = {
                         'Redux',
                         'Node',
                         'Unit Testing',
+                        'Material UI',
                     ],
                     details: [
                         'Develop, review, and maintain front-end code in a React-based client/server architecture',
@@ -145,6 +158,7 @@ const data = {
                 'Requested specifically by said client for several years due to consistent high-quality work',
             ],
             location: 'New York, NY',
+            isRemoteLocation: false,
             projects: [
                 {
                     name: 'Dolby Digital Experience',
@@ -261,6 +275,7 @@ const data = {
                 end: '2012',
             },
             location: 'New York, NY',
+            isRemoteLocation: false,
             accomplishments: [
                 'Acted as consultant for digital advertising agency',
             ],
@@ -309,6 +324,7 @@ const data = {
                 end: '2010',
             },
             location: 'Milford, PA',
+            isRemoteLocation: false,
             accomplishments: [
                 'Responsible for generating over $1M/year in trackable website revenue',
                 'Developed tools for a medium-sized business of over 50 people',
